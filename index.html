@@ -26,6 +26,8 @@
   <link rel="icon" type="image/png" href="favicon.ico">
   <!-- Font-Awesome -->
   <script src="https://kit.fontawesome.com/af95dcc527.js" crossorigin="anonymous"></script>
+  <!-- Links -->
+  <base target="_blank" rel="noopener noreferrer">  
 
   <title>Introduction to Bootstrap</title>
 </head>
@@ -81,9 +83,11 @@
             <br><span style="margin-left: 20%;">Garamond evokes the hand.</span>
           </div>
           <br>
-          <div id="body-quote"><span style="color: rgb(116, 106, 106);">It puckers and bloats in delicate ways like ink</span> swelling
+          <div id="body-quote"><span style="color: rgb(116, 106, 106);">It puckers and bloats in delicate ways like
+              ink</span> swelling
             within paper fibers. Reading its beautifully imperfect letters feels like reading a Renaissance manuscript.
-            <span style="color: rgb(124, 115, 115);">It is elegant while never feeling overly ornate or showy.</span></div><br>
+            <span style="color: rgb(124, 115, 115);">It is elegant while never feeling overly ornate or showy.</span>
+          </div><br>
         </div>
       </div>
     </div>
@@ -120,105 +124,113 @@
 
   </section>
 
+  <!-- Information Carousel -->
+  
+  <section class="">
 
-  <!-- Informative Content -->
+    <div id="info-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner"> 
 
-  <section id="information">
-    <div class="container-fluid">
-      <div class="row">
-
-        <div class="">
-<h2>Medium, Material</h2>
-<span class="opening-line">One of the most important principles behind every good piece of design is that the designer has to master their
-    medium.</span> 
-    <p class="content">With any medium, whether pencil and paper, metal, or pixels, the designer has to work with
-    strengths and limitations. Typography is the perfect vehicle with which to illustrate this concept throughout history. From the beginning, the
-    forms of our letters have been influenced by the tools we used to create them.</p>
-
-    <span id="testimonial">“The best design explicitly acknowledges that you cannot disconnect the form from the material – the material informs
-    the form.”</span>
-
-   <p id="jonathan-ive">&mdash; Jonathan Ive
-    <br><em>Lead Designer, Apple</em></p>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
-  </section>
+            <div class="carousel-item active">
+              <div class="info-card">
+                  <h2>Medium, Material</h2>
+                  <span class="opening-line">One of the most important principles behind every good piece of design is that the
+                    designer has to master their medium.</span>
+                  <p class="content">With any medium, whether pencil and paper, metal, or pixels, the designer has to work with
+                    strengths and limitations. Typography is the perfect vehicle with which to illustrate this concept
+                    throughout history. From the beginning, the forms of our letters have been influenced by the tools we used 
+                    to create them.</p>
+                  <span class="testimonial">“The best design explicitly acknowledges that you cannot disconnect the form from the
+                    material – the material informs the form.”</span>
+                  <p id="jonathan-ive">&mdash; Jonathan Ive
+                    <br><em>Lead Designer, Apple</em></p>
+                </div>
+            </div>
 
 
-  <!-- Press -->
+            <div class="carousel-item">
+              <div class="info-card" style="padding-top: 2em;">
+                    <h2>Good Web Font</h2>
+                    <span class="opening-line">What makes a font good or bad for the web?</span>
+                    <p class="content">
+                      There’s the widely-known issue of availability of fonts on users' computers, which is why we use
+                      widely-available fonts, like Arial, Verdana and Georgia. But popular web fonts are such not just 
+                      because of their availability, but because they are drawn with the screen’s limitations in mind.
+                      <br>
+                      <br>Georgia has a huge advantage over Garamond on-screen because it was designed to be displayed as such
+                      from the beginning. It was designed by Matthew Carter for Microsoft in the mid-90’s. This is evident in 
+                      the sharp serifs on Georgia, rather than the more subtly modeled ones on Garamond, which get blurred and 
+                      illegible at smaller sizes.</p>
+                  </div>
+                </div>
 
-  <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+            <div class="carousel-item">
+              <div class="info-card" style="padding-top: 2em;">
+                      <h2>Bad Web Font</h2>
+                      <span class="opening-line">Now there are some fairly feasible ways of using whatever fonts we want, 
+                        <br>doesn’t mean you should use just any font.</span>
+                      <p class="content"> 
+                        The reason is that our display technology isn’t up to par with paper. Even a great classic like Garamond, anti-aliased 
+                        at 12px height on a modern computer screen doesn’t look so good because it’s just made up of a bunch of blocks of color.
+                      </p>
+                        <span class="testimonial">Now we’re starting to get some display technologies approaching the quality of paper.
+                      <br>&mdash; Maybe Garamond can make its comeback.</span>
+              </div>
+            </div>
 
-  </section>
+            <div class="carousel-item">
+              <div class="info-card" style="padding-top: 4em;">
+                      <h2>In the Wild</h2>
+                      <span class="opening-line">Garamond truly lives on paper.</span>
+                      <p class="content">It's unsurprising that you find it often in books. Some of the most popular
+            books have been set in a Garamond, including all the Harry Potter novels. A few other notable uses include Abercrombie & Fitch’s logo and
+            <a href="https://en.wikipedia.org/wiki/Typography_of_Apple_Inc.">Apple’s Think Different</a> campaign.</p>
+                </div>
+              </div>
+
+          <a class="carousel-control-prev" href="#info-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#info-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        </div>
+      </section>
+
+        <!-- Footer -->
+
+  <footer id="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div>
+                <p class="footer-text">This website is made using Cormorant Garamond from Google Fonts.
+                  <br>Cormorant is a free display type family developed by Christian Thalmann.
+                  The Cormorant project is led by Christian Thalmann, a type designer based in Zurich, Switzerland. To contribute, see <a
+                    href="https://github.com/CatharsisFonts/Cormorant">github.com/CatharsisFonts/Cormorant</a></p>
+                    <p class="footer-text">© Copyright 2020 <em>a Loveletter</em> to the Garamond typeface.</p>
+                  </div>
+                </footer>
 
   <!-- Sources -->
-
-
+  <section id="">
   <a href="http://meaningfultype.com/garamond.html"></a>
   <a href="https://designforhackers.com/blog/garamond/"></a>
   <a href="https://medium.com/@sarah.murray3000/garamond-fc17b5b27c6e"></a>
   <a
     href="https://fonts.google.com/specimen/Cormorant+Garamond?query=garamond&preview.text=The+quick+brown+fox+jumps+over+the+lazy+dog&preview.text_type=custom&sidebar.open&selection.family=Cormorant+Garamond:ital,wght@0,600;1,300;1,500#standard-styles"></a>
-  <!-- Pricing -->
-
-  <section id="pricing">
-
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <!-- <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
     <button type="button">Download</button>
     <button type="button">Download</button>
 
-  </section>
-
-
-  <!-- Footer -->
-
-  <footer id="footer">
-
-    <p>© Copyright 2018 TinDog</p>
-
-  </footer>
+  </section> -->
 
 
 </body>

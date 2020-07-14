@@ -1,19 +1,19 @@
 /* Tag Selectors */
 h1 {
-    color: darkred;
+    color: #8b0000;
     font-family: 'Cormorant Garamond', serif;
     font-size: 7rem;
 }
 
 h2 {
-    color:rgb(126, 117, 117);
+    color: #8b0000;
     font-family: 'Cormorant Garamond', serif;
     font-size: 2.5rem; 
     padding: 2% 0;
 }
 
 h3 {
-    color: darkred;
+    color: #8b0000;
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
 }
@@ -22,6 +22,14 @@ p {
     color: rgb(126, 117, 117);
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
+}
+
+a {
+    color: #8b0000;
+}
+
+a:hover {
+    color: #8b0000;
 }
 
 /* Class Selectors */
@@ -60,11 +68,11 @@ p {
 }
 
 .icon:hover {
-    color: darkred;
+    color: #8b0000;
 }
 
 .quote {
-    color: darkred;
+    color: #8b0000;
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.3rem;
     font-style: italic; 
@@ -83,21 +91,45 @@ p {
     font-size: 5rem;
 }
 
+.info-card {
+    align-content: center;
+    background-color: #e9e5e5;
+    height: 30rem;
+    padding:1rem 10rem 2rem 10rem;
+    text-align: center;
+}
+
 .opening-line {
-    color: darkred;
+    color: #8b0000;
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.7rem;
     font-style: italic; 
-    line-height: 1;
-    padding: 0;
+    line-height: 1.1;
 }
 
 .content {
-    color: rgb(99, 89, 89);
+    color: #534b4b;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-    padding: 1% 10% 2% 10%;   
+    padding: 1rem 10rem 2rem 10rem;
+}
+
+.testimonial {
+    color: #413c3c;
+    font-family: 'Cormorant Garamond', serif; 
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    quotes: "\201C" "\201D";
+}
+
+.footer-text {
+    color: rgb(99, 89, 89);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding: 0.5rem 10rem 2rem 10rem;
 }
 
 /* Id Selectors */
@@ -118,7 +150,7 @@ p {
 }
 
 #headline-quote {
-    color: darkred;
+    color: #8b0000;
     font-family: 'Cormorant Garamond', serif; 
     font-size: 3rem;
     font-style: italic; 
@@ -138,7 +170,7 @@ p {
 }
 
 #quote {
-    background-color: rgb(233, 229, 229);
+    background-color: #e9e5e5;
 }
 
 #features {
@@ -146,21 +178,14 @@ p {
     padding: 1% 0 2% 0;
 }
 
-#information {
-    background-color: rgb(233, 229, 229);
-    text-align: center;
-}
-
-#testimonial {
-    color: rgb(153, 149, 149);
-    font-family: 'Cormorant Garamond', serif; 
-    font-style: normal;
-    font-size: 1.3rem;
-    line-height: 1.3;
-    quotes: "\201C" "\201D";
-}
-
 #jonathan-ive {
+    color: #413c3c;
     padding: 1% 0 1% 0;
 }
+
+#footer {
+    background-color: rgb(219, 217, 217);
+    padding: 3rem 2rem 0;
+    text-align: center;
+} 
 
